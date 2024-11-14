@@ -126,4 +126,9 @@ public class GameManager : MonoBehaviour
             Debug.Log("Game Resumed");
         }
     }
+        public void QuitGame()
+    {
+        Debug.Log("Quitting the game...");
+        Application.Quit();
+    }
 }
